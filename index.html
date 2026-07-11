@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS PLAY - Películas y Series Premium</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/cards.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M9 7L9 17M15 7L15 17M7 12H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">NEXUS PLAY</span>
+            </div>
+            
+            <div class="search-container">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                    <path d="M21 21L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <input type="text" class="search-input" id="searchInput" placeholder="Buscar películas y series...">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Trending Section -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Tendencias Ahora</h2>
+            </div>
+            <div class="cards-container" id="trendingContainer">
+                <!-- Cards generadas por JavaScript -->
+            </div>
+        </section>
+
+        <!-- Popular Movies -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Películas Populares</h2>
+            </div>
+            <div class="cards-container" id="popularMoviesContainer">
+                <!-- Cards generadas por JavaScript -->
+            </div>
+        </section>
+
+        <!-- Popular Series -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Series Populares</h2>
+            </div>
+            <div class="cards-container" id="popularSeriesContainer">
+                <!-- Cards generadas por JavaScript -->
+            </div>
+        </section>
+
+        <!-- Top Rated -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Lo Mejor Calificado</h2>
+            </div>
+            <div class="cards-container" id="topRatedContainer">
+                <!-- Cards generadas por JavaScript -->
+            </div>
+        </section>
+
+        <!-- Recién Agregadas -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Recién Agregadas</h2>
+            </div>
+            <div class="cards-container" id="newReleasesContainer">
+                <!-- Cards generadas por JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 NEXUS PLAY. Todos los derechos reservados.</p>
+            <p class="footer-disclaimer">Powered by TMDB & UnlimPlay</p>
+        </div>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
